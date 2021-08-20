@@ -3,11 +3,7 @@
 
 name: Javascript Algorithm CI
 
-on:
-  push:
-    branches: [ testing ]
-  pull_request:
-    branches: [ testing ]
+on: [push, pull_request]
 
 jobs:
   build:
