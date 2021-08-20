@@ -1,6 +1,6 @@
 name: Javascript Algorithm Code Inspector CI
 
-on: [push]
+on: [push, pull_request]
 
 jobs:
   check-quality:
