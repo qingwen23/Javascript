@@ -5,7 +5,8 @@ describe('Testing surfaceAreaCube calculations', () => {
     const surfaceAreaOfOne = area.surfaceAreaCube(1.2)
     const surfaceAreaOfThree = area.surfaceAreaCube(3)
     expect(surfaceAreaOfOne).toBe(8.64)
-    expect(surfaceAreaOfThree).toBe(54)
+    // expect(surfaceAreaOfThree).toBe(54)
+    expect(surfaceAreaOfThree).toBe(50)
   })
   it('with negative argument, expect throw', () => {
     expect(() => area.surfaceAreaCube(-1)).toThrow()
