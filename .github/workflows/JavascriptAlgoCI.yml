@@ -32,5 +32,3 @@ jobs:
         
     - name: Jest test
       uses: raulanatol/jest-coverage-comment-action@main
-      with:
-        github-token: ${{ secrets.JAVASCRIPTTOKEN }}
