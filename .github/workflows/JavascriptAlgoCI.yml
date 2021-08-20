@@ -37,7 +37,3 @@ jobs:
       uses: raulanatol/jest-coverage-comment-action@main
       with:
         github-token: ${{ secrets.JAVASCRIPTTOKEN }}
-        jest-command: 'npm run jest-ci'
-        
-      
-        
