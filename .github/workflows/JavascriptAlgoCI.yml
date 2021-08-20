@@ -8,6 +8,7 @@ name: Javascript Algorithm CI
 on: [push, pull_request]
 
 permissions:
+  actions: write
   contents: write
   pull-requests: write 
   issues: read
