@@ -7,6 +7,12 @@ name: Javascript Algorithm CI
 
 on: [push, pull_request]
 
+permissions:
+  contents: write
+  pull-requests: write 
+  issues: read
+  packages: none
+  
 jobs:
   build:
 
@@ -32,3 +38,5 @@ jobs:
         
     - name: Jest test
       uses: raulanatol/jest-coverage-comment-action@main
+      with: 
+        github-token: ${{ secrets.JAVASCRIPTTOKEN }}
