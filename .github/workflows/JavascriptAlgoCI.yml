@@ -29,8 +29,6 @@ jobs:
         npm run build --if-present
         
         npm test
-      env:
-        CI: true
         
     - name: Jest Test
       uses: raulanatol/jest-coverage-comment-action@main
@@ -38,4 +36,6 @@ jobs:
         github-token: ${{ secrets.JAVASCRIPTTOKEN }}
         jest-command: 'npm run jest-ci'
         
-
+      env:
+        CI: true
+        
