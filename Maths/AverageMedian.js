@@ -37,3 +37,5 @@ const sortNumbers = (num1, num2) => {
 }
 
 export { averageMedian }
+
+
