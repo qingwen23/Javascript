@@ -35,6 +35,3 @@ jobs:
       
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
-
-    - name: Run Codacy Analysis CLI
-      uses: codacy/codacy-analysis-cli-action@master
