@@ -10,4 +10,4 @@ const distance2points = (longitude1, latitude1, longitude2, latitude2) => {
   return (Math.sqrt(width * width + height * height))
 }
 
-export { distance2points 
+export { distance2points }
