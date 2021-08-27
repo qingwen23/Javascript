@@ -21,7 +21,6 @@ jobs:
       run: |
         npm install doctest
         npm install standard --save-dev
-        npm install --save-dev jest
         npx doctest **/*.js || true  # TODO: Add all doctests
         npx standard
         npm ci
