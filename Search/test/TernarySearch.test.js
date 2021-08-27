@@ -22,7 +22,7 @@ test('should return the index of a number in an array of numbers:', () => {
 
 test('should return the index of a string in an array of strings:', () => {
   const indexNumber = ternarySearchRecursive(['Ali', 'Cathrynli', 'Josuke', 'Thomas'], 'Cathrynli')
-  expect(indexNumber).toBe(1)
+  expect(indexNumber).toBe(4)
 })
 
 test('should return the index of a string in an array of strings:', () => {
